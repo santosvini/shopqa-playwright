@@ -26,9 +26,9 @@ module.exports = defineConfig({
   use: {
     baseURL: 'https://automationpratice.com.br/',
     colorScheme: 'dark',
-    headless: true,
+    headless: false,
     trace: 'on-first-retry',
-    // viewport: { width: 1280, height: 720},
+    viewport: { width: 1280, height: 768},
 
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
