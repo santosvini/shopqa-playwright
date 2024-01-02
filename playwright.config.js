@@ -26,7 +26,7 @@ module.exports = defineConfig({
   use: {
     baseURL: 'https://automationpratice.com.br/',
     colorScheme: 'dark',
-    headless: false,
+    headless: true,
     trace: 'on-first-retry',
     viewport: { width: 1280, height: 768},
 
